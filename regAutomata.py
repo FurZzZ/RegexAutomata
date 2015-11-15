@@ -65,7 +65,7 @@ class Application:
         stateList = []
         isBracketOpen = 0
         positionOfBracket = -1
-        #Iteruj po automatach
+        #Iteruj po automatach, i
         for i in numberOfAutomatas:
             #For each state we are adding start State named S0
             zeroState = State("S0", False, "--", "-")
